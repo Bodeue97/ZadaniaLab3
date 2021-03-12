@@ -159,5 +159,5 @@ arytmetyczne.wzorSumaArytm()
 #         return "Brak zakupów"
 #     return suma
 #
-# print(shopping(jablka = 1, bagietka = 2, reklamyMastercard = "bezcenne", jakiskolejnyprodukt =
-
+# print(shopping(jablka = 1, bagietka = 2, reklamyMastercard = "bezcenne", jakiskolejnyprodukt = 11.11))
+#
