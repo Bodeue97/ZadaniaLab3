@@ -26,7 +26,10 @@ from random import randint
 #
 # prodSzt = [produkt for produkt in produkty.keys() if produkty[produkt] =="szt"]
 # print(prodSzt)
+
+
 # # Zad4
+
 # def isRightAngle(a, b, c):
 #         if (str(a).isdigit() == False) | (str(b).isdigit() == False) | (str(c).isdigit() == False):
 #             return "Podano bledne wartosci"
@@ -63,5 +66,29 @@ from random import randint
 # print(isRightAngle(a, b, c))
 
 
-# Zad5
+# # Zad5
+#
+#
+#
+# def trapField(a, b, h):
+#     if (str(a).isdigit() == False) | (str(b).isdigit() == False) | (str(h).isdigit() == False):
+#         return "Podano bledne wartosci"
+#     else:
+#         a = float(a)
+#         b = float(b)
+#         h = float(h)
+#         if (a<=0)|(b<=0)|(h<=0):
+#             return "Podano bledne wartosci"
+#         else:
+#             P = (a+b)*h/2
+#             return P
+#
+#
+# a = input("Podaj dlugosc pierwszej podstawy trapezu\n")
+# b = input("Podaj dlugosc drugiej podstawy trapezu\n")
+# h = input("Podaj wysokosc trapezu\n")
+# print(trapField(a, b, h))
+
+# Zad6
+
 
