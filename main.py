@@ -122,7 +122,7 @@ from random import randint
 #         elCiagu.insert(x, anp1)
 #         an = anp1
 #         iloczyn *= anp1
-#     # iloczyn = (elCiagu[x]*elCiagu[x+1] for x in range (n-1))
+#
 #     return iloczyn, elCiagu
 # print(seqProd(1, 2, 6))
 
