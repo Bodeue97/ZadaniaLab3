@@ -1,6 +1,11 @@
 from random import randint
 
+import ciagi
+from ciagi import *
 
+
+geometryczne.wzorSumaGeom()
+arytmetyczne.wzorSumaArytm()
 
 
 # # Zad1
