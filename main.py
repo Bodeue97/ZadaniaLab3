@@ -140,3 +140,19 @@ from random import randint
 # print(seqProdUnl(1, 2, 3, 4, 5, 6))
 
 
+# # Zad8
+# def shopping(**koszyk):
+#     items = len(koszyk)
+#     if items != 0:
+#         suma = 0
+#         ceny = [cena for cena in koszyk.values() if isinstance(cena, float) == True or isinstance(cena, int) == True]
+#         print(ceny)
+#         for x in range (len(ceny)):
+#             suma+=float(ceny[x])
+#
+#     else:
+#         return "Brak zakupów"
+#     return suma
+#
+# print(shopping(jablka = 1, bagietka = 2, reklamyMastercard = "bezcenne", jakiskolejnyprodukt =
+
