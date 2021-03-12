@@ -1,4 +1,8 @@
 from random import randint
+
+
+
+
 # # Zad1
 #
 #
@@ -11,6 +15,9 @@ from random import randint
 # c = [x for x in b if x % 2 == 0]
 # print(c)
 
+
+
+
 # # Zad2
 # randList = [randint(0, 100) for x in range(10)]
 # randList.sort()
@@ -19,6 +26,10 @@ from random import randint
 # evenRand = [x for x in randList if x%2==0]
 # print(evenRand)
 
+
+
+
+
 # # Zad3
 #
 # produkty = {"jablka":"Kg", "jaja":"paczka", "gazeta wybiórcza":"szt","Majonez Kętrzyński":"szt"}
@@ -26,6 +37,9 @@ from random import randint
 #
 # prodSzt = [produkt for produkt in produkty.keys() if produkty[produkt] =="szt"]
 # print(prodSzt)
+
+
+
 
 
 # # Zad4
@@ -66,11 +80,13 @@ from random import randint
 # print(isRightAngle(a, b, c))
 
 
+
+
 # # Zad5
 #
 #
 #
-# def trapField(a, b, h):
+# def trapField(a=1, b=1, h=1):
 #     if (str(a).isdigit() == False) | (str(b).isdigit() == False) | (str(h).isdigit() == False):
 #         return "Podano bledne wartosci"
 #     else:
@@ -83,12 +99,33 @@ from random import randint
 #             P = (a+b)*h/2
 #             return P
 #
-#
+# print(trapField())
 # a = input("Podaj dlugosc pierwszej podstawy trapezu\n")
 # b = input("Podaj dlugosc drugiej podstawy trapezu\n")
 # h = input("Podaj wysokosc trapezu\n")
 # print(trapField(a, b, h))
 
-# Zad6
+
+
+# # Zad6
+# #Nie byłem w 100% pewny co trzeba zrobić w zadaniu, więc zrobiłem funkcję, która oblicza iloczyn n pierwszych elementow ciagu geometrycznego
+#
+#
+# def seqProd(a1=1, q=4, n=10):
+#     an = a1*q
+#     elCiagu = []
+#     elCiagu.append(a1)
+#     elCiagu.append(an)
+#     iloczyn = a1*an
+#     for x in range (3, n+1, 1):
+#         anp1 = an * q
+#         elCiagu.insert(x, anp1)
+#         an = anp1
+#         iloczyn *= anp1
+#     # iloczyn = (elCiagu[x]*elCiagu[x+1] for x in range (n-1))
+#     return iloczyn, elCiagu
+# print(seqProd(1, 2, 6))
+
+
 
 
